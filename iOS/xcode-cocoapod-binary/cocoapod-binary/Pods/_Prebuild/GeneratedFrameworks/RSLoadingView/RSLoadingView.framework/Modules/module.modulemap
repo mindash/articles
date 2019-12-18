@@ -1,0 +1,11 @@
+framework module RSLoadingView {
+  umbrella header "RSLoadingView-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module RSLoadingView.Swift {
+    header "RSLoadingView-Swift.h"
+    requires objc
+}

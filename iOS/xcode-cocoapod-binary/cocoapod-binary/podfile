@@ -1,0 +1,25 @@
+plugin 'cocoapods-binary'
+
+platform :ios, '13.0'
+enable_bitcode_for_prebuilt_frameworks!
+use_frameworks!
+
+target 'cocoapod-binary' do
+  pod 'THLabel', '1.4.8',  :binary => true
+  pod 'Alamofire', '4.8.0', :binary => true
+  pod 'AlamofireImage', '3.5.0', :binary => true
+  pod 'RSLoadingView', '1.1.3',:binary => true
+  pod 'PureLayout', '3.1.4',:binary => true
+  pod 'MaryPopin', git: 'https://github.com/mindash/MaryPopin.git', branch: 'master',:binary => true
+  pod 'lottie-ios', '2.5.2',  :binary => true
+
+  pod 'Fabric', '1.9.0',  :binary => true
+  pod 'Crashlytics', '3.12.0',  :binary => true
+  pod 'Koloda', '4.5.1',  :binary => true
+  pod 'pop', '~> 1.0',  :binary => true
+  pod 'GTProgressBar', '0.3.2',  :binary => true
+  pod 'Version', '0.6.3',  :binary => true
+  pod 'KSToastView', :binary => true
+  pod 'FaveButton',  :binary => true
+  pod 'Highlightr',  :binary => true 
+end

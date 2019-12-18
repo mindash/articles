@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Alamofire" "${PODS_ROOT}/AlamofireImage" "${PODS_ROOT}/Crashlytics/iOS" "${PODS_ROOT}/Fabric/iOS" "${PODS_ROOT}/FaveButton" "${PODS_ROOT}/GTProgressBar" "${PODS_ROOT}/Highlightr" "${PODS_ROOT}/KSToastView" "${PODS_ROOT}/Koloda" "${PODS_ROOT}/MaryPopin" "${PODS_ROOT}/PureLayout" "${PODS_ROOT}/RSLoadingView" "${PODS_ROOT}/THLabel" "${PODS_ROOT}/Version" "${PODS_ROOT}/lottie-ios" "${PODS_ROOT}/pop"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "Alamofire" -framework "AlamofireImage" -framework "CoreText" -framework "Crashlytics" -framework "Fabric" -framework "FaveButton" -framework "GTProgressBar" -framework "Highlightr" -framework "KSToastView" -framework "Koloda" -framework "Lottie" -framework "MaryPopin" -framework "PureLayout" -framework "QuartzCore" -framework "RSLoadingView" -framework "Security" -framework "SystemConfiguration" -framework "THLabel" -framework "UIKit" -framework "Version" -framework "pop"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
