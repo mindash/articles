@@ -1,0 +1,1 @@
+/Users/jeromemorissard/.cocoapods/repos/master/Specs//b/c/2/FirebaseUI/2.0.3/FirebaseUI.podspec.json
