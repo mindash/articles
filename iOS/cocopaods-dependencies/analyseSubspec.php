@@ -53,7 +53,7 @@ function get_curl_data_from_url($url){
 	curl_setopt($ch, CURLOPT_CUSTOMREQUEST, 'GET');
 
 	$headers = array();
-	$headers[] = 'Authorization: token e1bbe28127db43deac780d47271092d338e03726';
+	$headers[] = 'Authorization: token xxxx';
 	$headers[] = 'Accept: application/vnd.github.mercy-preview+json';
 	$headers[] = 'User-Agent: RocketSkill';
 	
